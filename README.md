@@ -23,7 +23,7 @@ This backend service provides:
 
 - ✅ Async FastAPI backend
 - ✅ PostgreSQL with SQLAlchemy ORM
-- ✅ OpenAI GPT-3.5 integration
+- ✅ OpenAI GPT-4o integration
 - ✅ API Key authentication
 - ✅ Rate-limiting logic
 - ✅ Swagger documentation (`/docs`)
@@ -47,8 +47,6 @@ This backend service provides:
 
 > _Course creator submits a new course → hits "Generate Summary" → AI creates summary → user can optionally edit it manually before finalizing._
 
-_(You can optionally include screenshots or Swagger UI here)_
-
 ---
 
 ## 📦 Setup Instructions
@@ -56,7 +54,7 @@ _(You can optionally include screenshots or Swagger UI here)_
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mentortools-ai-summary.git
+git clone https://github.com/manzoorHusain/mentortools-ai-summary.git
 cd mentortools-ai-summary
 ```
 
@@ -166,17 +164,8 @@ Further requests will return:
 
 ---
 
-## 📦 Optional Improvements
-
-- ✅ Docker support
-- ✅ Frontend integration
-- ✅ Role-based permissions
-- ✅ Admin dashboards
-
----
-
 ## 👨‍💻 Author
 
-- **Asad** – Patient Care Coordinator, Health Tourism Specialist, and Full-Stack Dev in progress 🚀
+- **Manzoor Hussain** – A Passionate Software Engineer
 
 ---
