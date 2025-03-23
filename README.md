@@ -120,24 +120,24 @@ Here you’ll find **interactive Swagger documentation** to test every route.
 ## 📬 API Endpoints
 
 ### 👤 Users
-| Method | Endpoint          | Description         |
-|--------|-------------------|---------------------|
-| POST   | /users            | Create a new user   |
-| GET    | /users/{id}       | Get user by ID      |
-| GET    | /users            | Get all users       |
-| PUT    | /users/{id}       | Update user         |
-| DELETE | /users/{id}       | Delete user         |
+| Method | Endpoint         | Description         |
+|--------|------------------|---------------------|
+| POST   | /users           | Create a new user   |
+| GET    | /users/{user_id} | Get user by ID      |
+| GET    | /users           | Get all users       |
+| PUT    | /users/{user_id} | Update user         |
+| DELETE | /users/{user_id} | Delete user         |
 
 ### 📚 Courses
-| Method | Endpoint                  | Description                        |
-|--------|---------------------------|------------------------------------|
-| POST   | /courses                  | Create a new course                |
-| GET    | /courses                  | Get all courses                    |
-| GET    | /courses/{id}            | Get course by ID                   |
-| PUT    | /courses/{id}            | Update course                      |
-| DELETE | /courses/{id}            | Delete course                      |
-| POST   | /generate_summary/{id}   | 🔐 Generate summary using OpenAI   |
-| PUT    | /courses/{id}/summary    | ✍️ Manually update AI summary      |
+| Method | Endpoint                      | Description                        |
+|--------|-------------------------------|------------------------------------|
+| POST   | /courses                      | Create a new course                |
+| GET    | /courses                      | Get all courses                    |
+| GET    | /courses/{course_id}          | Get course by ID                   |
+| PUT    | /courses/{course_id}          | Update course                      |
+| DELETE | /courses/{course_id}          | Delete course                      |
+| POST   | /generate_summary/{course_id} | 🔐 Generate summary using OpenAI   |
+| PUT    | /courses/{course_id}/summary  | ✍️ Manually update AI summary      |
 
 ---
 
